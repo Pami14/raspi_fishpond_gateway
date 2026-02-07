@@ -1,0 +1,10 @@
+[Unit]
+Description=Eth0 on when it is down 
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/home/pi/eth0on.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Verbinden OVPN Home
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/home/pi/Verbinden-OVPN.sh
+
+[Install]
+WantedBy=multi-user.target

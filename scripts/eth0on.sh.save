@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ifconfig | grep eth0
+
+if [$
+1 == 1]
+then
+	echo "eth0 is up"
+elif [$? == 0]
+then
+	echo "eth0 is not up"
+fi
+

@@ -1,0 +1,11 @@
+[Unit]
+Description=Surveillance Cam
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/home/pi/Surveillance.sh
+
+[Install]
+WantedBy=multi-user.target
+
