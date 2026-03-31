@@ -14,8 +14,8 @@ Instant Messaging: Sends status updates and direct stream links via a Telegram B
 3. System Components & File Paths
 Component	Path / Details
 Main Logic	        /home/pi/surveillance_system.py (Python 3)
-Startup Script	        /home/pi/Surveillance.sh (includes 60s boot delay)
-Systemd Service	        /etc/systemd/system/Surveillance.service
+Startup Script	    /home/pi/Surveillance.sh (includes 60s boot delay)
+Systemd Service	    /etc/systemd/system/Surveillance.service
 DHCP Configuration	/etc/dhcp/dhcpd.conf
 VPN Profile	        /home/pi/Fischteich.ovpn
 Streaming Engine	motion software (default port 8081)
